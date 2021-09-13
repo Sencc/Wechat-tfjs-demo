@@ -1,0 +1,10 @@
+<!--pages/wink/wink.wxml-->
+<button style="width:45%;margin:10rpx; float:left" bindtap="chooseimage">上传图片</button>
+<button style="width:45%;margin:10rpx;float:right" bindtap="detectWink">点击检测</button>
+<image src="{{tempFilePaths }}" mode="aspecFill" style="max-width: 100%; max-height: 100%" />
+<!-- <text wx:if="{{ result>-1 }}">没眨眼</text> -->
+<view wx:if="{{result!=null}}" class="text_result">
+<text style="text-align:center;">检测结果:</text>
+<text wx:if="{{ result==1 }}">眨眼</text>
+<text wx:elif="{{ result==0 }}">没眨眼</text>
+</view>

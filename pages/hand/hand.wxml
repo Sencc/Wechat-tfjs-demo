@@ -1,0 +1,15 @@
+<!--pages/hand/hand.wxml-->
+<view class="container">
+
+  <camera
+      device-position="back"
+      flash="off"
+      binderror="error"
+      frame-size="medium"
+      class="camera"
+    >
+    <canvas type="2d" canvas-id="hand" id="hand" style="width:100%;height:100%"></canvas>
+    </camera>
+      <text class="result">{{result}}</text>
+
+ </view>

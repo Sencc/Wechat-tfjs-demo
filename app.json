@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/wink/wink",
+    "pages/reward/reward",
+    "pages/hand/hand"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "plugins": {
+    "tfjsPlugin": {
+      "version": "0.1.0",
+      "provider": "wx6afed118d9e81df9"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/2.png",
+        "selectedIconPath": "images/1.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "名创标志检测",
+        "iconPath": "images/22.png",
+        "selectedIconPath": "images/11.png"
+      },
+      {
+        "pagePath": "pages/hand/hand",
+        "text": "手势检测",
+        "iconPath": "images/222.png",
+        "selectedIconPath": "images/111.png"
+      }
+    ]
+  }
+}

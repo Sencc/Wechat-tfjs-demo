@@ -1,0 +1,26 @@
+{
+  "name": "wx_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@paddlejs-models/gesture": "0.0.3",
+    "@tensorflow-models/coco-ssd": "^2.1.0",
+    "@tensorflow-models/handpose": "0.0.7",
+    "@tensorflow/tfjs-backend-cpu": "^3.7.0",
+    "@tensorflow/tfjs-backend-webgl": "^3.7.0",
+    "@tensorflow/tfjs-converter": "^3.7.0",
+    "@tensorflow/tfjs-core": "^3.7.0",
+    "@tensorflow/tfjs-layers": "^3.7.0",
+    "fetch-wechat": "0.0.3",
+    "react": "^17.0.2",
+    "regenerator-runtime": "^0.13.7",
+    "upng-js": "^2.1.0"
+  }
+}

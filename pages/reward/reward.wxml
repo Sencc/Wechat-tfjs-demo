@@ -1,0 +1,14 @@
+<!--pages/reward/reward.wxml-->
+<view class="body">
+  <view class="box">
+    <image class="bg" src="{{bg}}" animation="{{animationRotate}}"></image>
+    <image bindtap="lottery" class="arrows {{isTurnOver?'':'grayscale'}}" src="{{arrows}}"></image>
+  </view>
+
+<modal title="中奖通知" wx:if="{{showModal}}" bindconfirm="modalConfirm" bindcancel="modalCandel">
+    <view>
+    </view>
+    <view>恭喜你获得{{prize}}</view>
+  </modal>
+
+</view>

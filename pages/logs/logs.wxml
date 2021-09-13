@@ -1,0 +1,24 @@
+<view class="container">
+  <camera
+      device-position="back"
+      flash="off"
+      binderror="error"
+      frame-size="medium"
+      class="camera"
+    ></camera>
+  <text class="result">{{result}}</text>
+
+<!-- <view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<view class="modalDlg" wx:if="{{showModal}}">
+ <view bindtap="closeMask" class="modal-close">x</view>
+ <image src="/images/quan.png" bindtap='ontTap'/>
+</view> -->
+
+<modal title="成功识别到名创logo" wx:if="{{showModal}}" bindconfirm="modalConfirm" bindcancel="modalCandel">
+    <view>
+      <image src="/images/reward1.png" bindtap='ontTap' mode='aspectFill'></image>
+    </view>
+    <view>恭喜你获得一次抽奖机会，点击确定立即抽奖</view>
+  </modal>
+
+</view>
